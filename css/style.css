@@ -1,0 +1,115 @@
+body {
+	margin: 0px;
+	margin-top: 50px;
+	padding: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	width:100%;
+	height: 720px;
+	background-color: white;
+	line-height: 1.7em;
+	background-color: orange;
+	background-image: linear-gradient(90deg,#383838,orange);
+}
+footer {
+	background-image: linear-gradient(#383838,#FF8C00);
+
+}
+section, article, aside {
+	background-color:#FF8C00;
+	background-image: linear-gradient(#FF8C00,#383838);
+
+	
+}
+
+section, article, aside, footer {
+	background-color:#FF8C00;
+}
+section {
+	display: inline-block;
+	width: 50%;
+}	
+
+section figure {
+	height:55%;
+	width:20%;
+	margin:10px;
+	margin-top:40px;
+	display:inline-block;
+	vertical-align:top;	
+}
+
+section article {
+	height:100%;
+	width:71.413%;
+	display:inline-block;
+	vertical-align:top;
+	margin-top:0px;
+}	
+
+aside {
+	width:49.3%;
+	float:right;
+	display:inline-block;
+	
+}
+
+.questions {
+	display:inline-block;
+	height: 100%;
+	width:50%;
+	
+}
+
+.réponses {
+	display:inline-block;
+	height: 100%;
+	width:45%;
+	
+	vertical-align: top;
+}
+
+footer {
+	width:100%;
+	float:left;
+	height:15%;
+	
+		
+}
+.b-color {
+	width:100%;
+	background-color:#FF8C00;
+
+
+}
+
+aside div p {
+	position:relative;
+	background-color: orange;
+	border-style: solid;
+    border-width: 0px;
+    width:100%;
+}
+nav{
+	text-align: center;
+}
+
+nav div {
+	display:inline-block;
+	width:30%;
+	text-align: center;
+	margin:-100px;
+	margin-top: 50px;
+
+}
+nav div img {
+	height: 15%;
+	width: 15%;
+	border:4px solid background-image: linear-gradient(90deg,#383838,orange);;
+	padding:20px;
+	padding-top: 0px;
+	
+}
+nav div img:hover {
+	background-color: #FF8C00;
+}

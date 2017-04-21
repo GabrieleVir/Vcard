@@ -76,7 +76,13 @@ header div {
 	display:block;
 	margin-left: 5px;
 	margin-right: 5px;
-	
+	transition:0.25s;
+
+}
+
+.social img:hover {
+	transition:all 0.25s, ease-in-out;
+	filter:brightness(150%);
 }
 
 #nav {
@@ -100,12 +106,12 @@ header div {
 
 .profile1 {
 	display:box;
-	transition:1s;
+	transition:0.25s;
 	filter:invert(0%);
 }
 .profile1:hover {
 	filter:invert(100%);
-	transition: all 1s, ease-in-out;
+	transition: all 0.25s, ease-in-out;
 
 }
 	
@@ -114,13 +120,13 @@ header div {
 }
 
 .profile3 {
-	transition:1s;
+	transition:0.25s;
 	filter:invert(0%);
 }
 
 .profile3:hover {
 	filter:invert(100%);
-	transition: all 1s, ease-in-out;
+	transition: all 0.25s, ease-in-out;
 }
 
 .profile1 img {

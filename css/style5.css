@@ -102,29 +102,31 @@ header div {
 	display:box;
 	transition:1s;
 	filter:invert(0%);
+	
 }
+
 .profile1:hover {
 	filter:invert(100%);
 	transition: all 1s, ease-in-out;
-
 }
-	
+
 .profile2 {
-	background-color: #ededed;
+	transition:1s;
+	filter:invert(100%);
+}
+
+.profile2:hover {
+	filter:invert(0%);
+	transition: all 1s, ease-in-out;
 }
 
 .profile3 {
-	transition:1s;
-	filter:invert(0%);
-}
-
-.profile3:hover {
-	filter:invert(100%);
-	transition: all 1s, ease-in-out;
+	background-color: #ededed;
 }
 
 .profile1 img {
 	margin-top: 2px;
+	
 }
 
 .profile2 img {
@@ -133,6 +135,7 @@ header div {
 
 .profile3 img {
 	margin-top: 4px;
+	filter: invert(100%);
 }
 
 article {
@@ -151,7 +154,7 @@ article {
 .skills h2 {
 	margin:0;
 	padding-top:30px; 
-	font-size: 23px;
+	font-size: 22px;
 	
 }
 
@@ -194,7 +197,35 @@ article {
 	
 }
 
-.skills div p {
-	padding-top: 3px;
-	padding-bottom: 3px;
+.skills p {
+	padding-top:0px;
+	padding-bottom: 0px;
+	font-size: 18px;
+	margin:1px;
+
+}
+
+.skills p input {
+	border-radius: 20px;
+}
+
+.name {
+	width:200px;
+
+}
+
+.email {
+	width:200px;
+
+}
+
+.message {
+	height: 81px;
+	width: 293px;
+}
+
+.skills button {
+	margin-top: 8px;
+	float:right;
+	margin-right: 12px;
 }
